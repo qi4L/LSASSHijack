@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 clap = { version = "4.5.53", features = ["derive"] }
-winapi = { version = "0.3.9", features = ["devicetopology", "winbase", "ntdef", "winnt", "processthreadsapi", "securitybaseapi", "handleapi", "winsvc", "tlhelp32", "minwindef"] }
+winapi = { version = "0.3.9", features = ["devicetopology", "winbase", "ntdef", "winnt", "processthreadsapi", "securitybaseapi", "handleapi", "winsvc", "tlhelp32", "minwindef", "winreg", "winerror", "minwinbase", "fileapi"] }
 export-resolver = "1.0.3"
 obfstr = "0.4.4"
 once_cell = "1.21.3"
